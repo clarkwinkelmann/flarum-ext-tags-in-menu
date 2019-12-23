@@ -1,0 +1,32 @@
+.TagsInMenu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+
+  li {
+    width: 50%;
+    padding: 8px 15px;
+  }
+
+  .TagLinkButton {
+    color: #333;
+  }
+
+  .discussionCount {
+    color: #aaa;
+    margin-left: 6px;
+  }
+}
+
+@media @phone {
+  .item-tagsInMenu {
+    display: none;
+
+    & + .Dropdown-separator {
+      display: none;
+    }
+  }
+}

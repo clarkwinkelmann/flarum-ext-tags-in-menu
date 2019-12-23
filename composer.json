@@ -1,0 +1,29 @@
+{
+  "name": "clarkwinkelmann/flarum-ext-tags-in-menu",
+  "description": "Move tags list to profile dropdown / mobile menu",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": ">=0.1.0-beta.11 <0.1.0-beta13"
+  },
+  "authors": [
+    {
+      "name": "Clark Winkelmann",
+      "email": "clark.winkelmann@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "flarum-extension": {
+      "title": "Tags in Menu",
+      "icon": {
+        "name": "fas fa-th-list",
+        "backgroundColor": "#333",
+        "color": "#fff"
+      }
+    }
+  }
+}
